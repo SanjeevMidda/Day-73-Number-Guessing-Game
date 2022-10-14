@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 1px solid rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: 1px solid orange;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container *{
+    margin: 10px 40px 10px 40px;
+}
+
+.result {
+    text-align: center;
+}
+
+.circle{
+    width:200px;
+    height: 200px;
+    background-color: beige;
+    border-radius: 50%;
+}
